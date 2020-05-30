@@ -3,7 +3,7 @@ public class Insert {
 
 	 public static void insert() {
 	        
-		    int[] data = {10, 20, 30, 40, 50};
+		int[] data = {10, 20, 30, 40, 50};
 	        int indexToInsert = 2;
 	        int[] newData = new int[data.length + 1];
 	        int newValue = -10;
@@ -21,6 +21,6 @@ public class Insert {
 	            System.out.println(i);
 
 	        }
-	    }
+	 }
 	 
 }
