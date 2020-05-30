@@ -3,7 +3,7 @@ public class Delete {
 
 	 public static void delete(){
 	        
-		    int[] data = {10,20,30,40,50};
+		int[] data = {10,20,30,40,50};
 	        int indexToDelete = 2;
 	        int[] newData = new int[data.length - 1];
 	        
@@ -18,5 +18,5 @@ public class Delete {
 	            System.out.println(i);
 
 	        }
-	    }
+	}
 }
