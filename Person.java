@@ -5,7 +5,7 @@ public class Person {
 
 	public Person() {}
         public Person(String fullname) {
-		this.fullname = fullname;
+		setFullname(fullname);
 	}
 	public String getFullname() {
 		return fullname;
@@ -13,8 +13,4 @@ public class Person {
 	public void setFullname(String fullname) {
 		this.fullname = fullname;
 	}
-	public String toString() {
-		return "FullName : [" + fullname + "]";
-	}
-
 }
