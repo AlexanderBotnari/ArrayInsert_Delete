@@ -4,7 +4,7 @@ public class Person {
 	private String fullname;
 
 	public Person() {}
-    public Person(String fullname) {
+        public Person(String fullname) {
 		this.fullname = fullname;
 	}
 	public String getFullname() {
