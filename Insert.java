@@ -4,16 +4,15 @@ public class Insert {
 	 public static void insert() {
 	        
 		int[] data = {10, 20, 30, 40, 50};
-	        int indexToInsert = 2;
+	        int indexToInsert = 1;
 	        int[] newData = new int[data.length + 1];
 	        int newValue = -10;
 	         
 	        for (int oi = 0, ci = 0; oi < data.length; oi++) {
-	            if (oi == indexToInsert) {
+	        	newData[ci++] = data[oi];
+	        	if (oi == indexToInsert-1) {
 	                newData[ci++] = newValue;
-	            } else {
-	                newData[ci++] = data[oi];
-	            }
+	              }
 	        }
 	                data = newData;
 
